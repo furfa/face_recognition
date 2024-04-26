@@ -1,6 +1,6 @@
-python -m pip install mediapipe
+python -m pip install mediapipe==0.10.11
 
-python -m pip install opencv-python
+python -m pip install opencv-python==4.9.0.80
 
 wget -q -O face_detection/model/blaze_face_short_range.tflite -q https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite
 
